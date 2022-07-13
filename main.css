@@ -70,4 +70,11 @@ button{
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
         width: 95%;
     }
+
+    .chat{
+        width:95%;
+        margin: auto;
+        margin-top: 9px;
+        text-align: center;
+    }
 }
