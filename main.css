@@ -1,7 +1,7 @@
 body{
     background:#0F2027;
-    background:-webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027) ;
-    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    background:-webkit-linear-gradient(to right, #4c8aa5, #75c3dd, #ffffff) ;
+    background: linear-gradient(to right, #4c8aa5, #75c3dd, #ffffff);
 }
 
 #join-btn{
@@ -47,6 +47,14 @@ button{
     display: none;
     justify-content: center;
     margin-top:0.5em;
+}
+
+.chat{
+    width: 50%;
+    margin: 20px auto;
+    display: flex;
+    align-content: center;
+    justify-content: center;
 }
 
 @media screen and (max-width:1400px){
