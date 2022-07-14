@@ -1,11 +1,7 @@
 # group-video-chat
-Simple group video chat app built using plain HTML, CSS, JavaScript and the Agora SDK
+Simple group video chat app built using plain HTML, CSS, JavaScript, the Agora SDK and tlk.io app.
 
-# Installation
-* 1 - clone repo https://github.com/divanov11/group-video-chat
-* 2 - Create an account on agora.io and get APP ID, Temp Token and Channel Name
-* 3 - Update APP ID, Temp Token and Channel Name in script.js
+Inspired in this repo https://github.com/divanov11/group-video-chat
 
-
-# Projects Page
+# Illustration
 <img src="./coverpic.jpg">  
