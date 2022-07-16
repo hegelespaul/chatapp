@@ -1,5 +1,5 @@
 const APP_ID = "41efadf5a4d6497cae39dfb8bf1454e2"
-const TOKEN = "00641efadf5a4d6497cae39dfb8bf1454e2IABI1p81hVpYIZv4PlLTDcd1CX02jaNzTzLQj9/e/HhD7JSjjnIAAAAAEACPl0pW+AHSYgEAAQD6AdJi"
+const TOKEN = "00641efadf5a4d6497cae39dfb8bf1454e2IADPPKAeyJpjMYty/vof9iRNGljtEQV6KjuSpNpeK/ekS5SjjnIAAAAAEACPl0pWDUnUYgEAAQAPSdRi"
 const CHANNEL = "hegel"
 
 const client = AgoraRTC.createClient({mode:'rtc', codec:'vp8'})
@@ -31,6 +31,7 @@ let joinStream = async () => {
     await joinAndDisplayLocalStream()
     document.getElementById('join-btn').style.display = 'none'
     document.getElementById('stream-controls').style.display = 'flex'
+    alert('La sesión podrá ser grabada, entrar supone un consentimiento a ello');
 }
 
 let handleUserJoined = async (user, mediaType) => {
